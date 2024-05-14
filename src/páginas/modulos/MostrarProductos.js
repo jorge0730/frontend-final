@@ -113,7 +113,7 @@ const MostrarProductos = () => {
                                     <td>
                                                         
                                                         <Link to={`/productos/editar/${producto._id}`} className="btn btn-sm btn-primary">Editar</Link>
-                                                        <button onClick={(e) => eliminarProductos(e, producto._id)} className="btn btn-sm btn-danger">Borrar</button>
+                                                        <button onClick={(e) => eliminarProductos(e, producto._id)} className="btn btn-sm btn-danger">Eliminar</button>
                                                     </td>
                                                 </tr>
                                       ))}
