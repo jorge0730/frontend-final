@@ -118,7 +118,7 @@ const MostrarClientes = () => {
                                     <td>
                                                         
                                                         <Link to={`/clientes/editar/${cliente._id}`} className="btn btn-sm btn-primary">Editar</Link>
-                                                        <button onClick={(e) => eliminarClientes(e, cliente._id)} className="btn btn-sm btn-danger">Borrar</button>
+                                                        <button onClick={(e) => eliminarClientes(e, cliente._id)} className="btn btn-sm btn-danger">Eliminar</button>
                                                     </td>
                                                 </tr>
                                       ))}
